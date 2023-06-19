@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title><h1> to do </h1></title>
+    <!-- Google Font: Quick Sand -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome (https://fontawesome.com) for basic icons; source: https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <body>
+    <div id="body" class="body">
+      <pre
+        style="
+          color: #cbb7b6;
+          font-size: 36px;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <b>Just do it </b>
+      </pre>
+
+      <input
+        type="text"
+        name="txtName"
+        placeholder="Add a task"
+        id="nameInput"
+        class="border"
+        style="background-color: #0f0f0f; color: azure"
+      />
+
+      <input
+        type="submit"
+        id="submit"
+        style="background-color: #f7e2df"
+        style="color: black"
+        value="I Got This!"
+        class="margin"
+      />
+
+      <!-- <div style="display: none" class="st" id="wrapper"> -->
+      <p style="color: #888284" id="label-title"></p>
+
+      <div
+        <pre
+        style="
+          color: #cbb7b6;
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <p><span id="datetime"></span></p>
+
+        <script src="./time.js"></script>
+      </div>
+
+      <div
+        id="cta-buttons"
+        style="display: flex; justify-content: center; align-items: center"
+      ></div>
+      <!-- </div> -->
+      <span id="no-records-found">
+        <i>NO RECORDS FOUND</i>
+      </span>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
